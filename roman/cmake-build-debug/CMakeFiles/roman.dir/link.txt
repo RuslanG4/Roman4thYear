@@ -1,0 +1,3 @@
+"E:\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\roman.dir/objects.a
+"E:\CLion 2024.2.1\bin\mingw\bin\ar.exe" qc CMakeFiles\roman.dir/objects.a @CMakeFiles\roman.dir\objects1.rsp
+"E:\CLion 2024.2.1\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\roman.dir/objects.a -Wl,--no-whole-archive -o roman.exe -Wl,--out-implib,libroman.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\roman.dir\linkLibs.rsp
