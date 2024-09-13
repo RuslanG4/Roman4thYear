@@ -32,15 +32,16 @@ int main() {
     bool stop=false;
 
     while(!stop) {
+        std::string willContinue;
         std::string inputNumeral;
         int total=0;
-        char willContinue;
         bool error=false;
 
         std::cout << "Enter a valid Roman Numeral in the range 1-3999: ";
         std::getline(std::cin, inputNumeral);
 
         if(inputNumeral.length() > 15 || inputNumeral.length() < 0) {
+            inputNumeral="";
             std::cout<<"Invalid Length"<<'\n';
             continue;
         }
@@ -71,7 +72,7 @@ int main() {
 
         std::cout<<"Continue ? Y/N";
         std::cin>>willContinue;
-        if(willContinue == 'n' || willContinue == 'N') {
+        if(willContinue == "n" || willContinue == "N") {
             stop=true;
             std::cout<<"Good Bye!\n";
         }
