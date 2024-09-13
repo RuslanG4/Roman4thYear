@@ -29,19 +29,18 @@ int getValue(char t_numeral) {
 }
 
 int main() {
-    char willContinue;
     bool stop=false;
 
     while(!stop) {
         std::string inputNumeral;
         int total=0;
+        char willContinue;
         bool error=false;
 
         std::cout << "Enter a valid Roman Numeral in the range 1-3999: ";
         std::getline(std::cin, inputNumeral);
 
         if(inputNumeral.length() > 15 || inputNumeral.length() < 0) {
-            inputNumeral="";
             std::cout<<"Invalid Length"<<'\n';
             continue;
         }
