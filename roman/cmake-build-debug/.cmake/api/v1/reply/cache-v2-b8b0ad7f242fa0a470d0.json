@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/rusla/Desktop/New folder (2)/Roman4thYear/roman/cmake-build-debug"
+			"value" : "c:/Users/rusla/Desktop/New folder (3)/Roman4thYear/roman/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/rusla/Desktop/New folder (2)/Roman4thYear/roman/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/rusla/Desktop/New folder (3)/Roman4thYear/roman/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -631,7 +631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/rusla/Desktop/New folder (2)/Roman4thYear/roman"
+			"value" : "C:/Users/rusla/Desktop/New folder (3)/Roman4thYear/roman"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/rusla/Desktop/New folder (2)/Roman4thYear/roman/cmake-build-debug"
+			"value" : "C:/Users/rusla/Desktop/New folder (3)/Roman4thYear/roman/cmake-build-debug"
 		},
 		{
 			"name" : "roman_IS_TOP_LEVEL",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/rusla/Desktop/New folder (2)/Roman4thYear/roman"
+			"value" : "C:/Users/rusla/Desktop/New folder (3)/Roman4thYear/roman"
 		}
 	],
 	"kind" : "cache",

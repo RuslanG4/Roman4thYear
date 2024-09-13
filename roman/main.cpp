@@ -52,9 +52,9 @@ int main() {
                 error=true;
                 break;
             }
-            if(getValue(inputNumeral[i]) < getValue(inputNumeral[i + 1])) {
-                total+=getValue(inputNumeral[i+1]) - getValue(inputNumeral[i]);
-                i++;
+            if(getValue(inputNumeral[i]) < getValue(inputNumeral[i + 1])) { //looking for smaller number before largest
+                total+=getValue(inputNumeral[i+1]) - getValue(inputNumeral[i]); //subtract smaller val from larger to get number
+                i++; //skip next iteration
                 continue;
             }
             total += getValue(inputNumeral[i]);
@@ -76,6 +76,6 @@ int main() {
             stop=true;
             std::cout<<"Good Bye!\n";
         }
-        std::cin.get();
+        std::cin.get(); //reset getline
     }
 };
